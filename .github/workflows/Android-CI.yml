@@ -45,7 +45,7 @@ jobs:
         uses: malinskiy/action-android/emulator-run-cmd@release/0.0.5
         with:
           cmd: ./gradlew cAT --stacktrace
-          api: 18
+          api: 25
           tag: default
           abi: x86
       - uses: actions/upload-artifact@v1
